@@ -24,8 +24,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-rF-2A9" customClass="EZAudioPlot">
-                                <rect key="frame" x="62" y="285" width="306" height="224"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-rF-2A9" customClass="EZAudioPlot">
+                                <rect key="frame" x="44" y="259" width="324" height="250"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prediction:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGA-FW-gyX">
@@ -67,22 +67,22 @@
                             <constraint firstItem="Bxu-6V-rQ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="6PP-ve-5n6"/>
                             <constraint firstItem="T9L-oF-NaN" firstAttribute="centerX" secondItem="Bxu-6V-rQ4" secondAttribute="centerX" id="BsA-2I-Tb4"/>
                             <constraint firstItem="T9L-oF-NaN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="K0s-aA-M8q"/>
-                            <constraint firstItem="rJs-rF-2A9" firstAttribute="centerX" secondItem="1TE-iv-QEu" secondAttribute="centerX" constant="8" id="M0p-Ue-cCy"/>
-                            <constraint firstItem="rJs-rF-2A9" firstAttribute="top" secondItem="1TE-iv-QEu" secondAttribute="bottom" constant="24" id="MZ9-H5-WTN"/>
+                            <constraint firstItem="rJs-rF-2A9" firstAttribute="centerX" secondItem="1TE-iv-QEu" secondAttribute="centerX" constant="-1" id="M0p-Ue-cCy"/>
+                            <constraint firstItem="rJs-rF-2A9" firstAttribute="top" secondItem="1TE-iv-QEu" secondAttribute="bottom" constant="-2" id="MZ9-H5-WTN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wGA-FW-gyX" secondAttribute="bottom" constant="52" id="RQN-iY-3aN"/>
                             <constraint firstItem="26s-Qe-bOj" firstAttribute="top" secondItem="rJs-rF-2A9" secondAttribute="bottom" constant="18" id="RUf-sz-gdv"/>
                             <constraint firstItem="T9L-oF-NaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="VyF-ai-Oac"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wGA-FW-gyX" secondAttribute="trailing" constant="76" id="ZvC-aq-KLG"/>
                             <constraint firstItem="26s-Qe-bOj" firstAttribute="leading" secondItem="Bxu-6V-rQ4" secondAttribute="leading" id="aeG-os-htb"/>
                             <constraint firstItem="wGA-FW-gyX" firstAttribute="top" secondItem="26s-Qe-bOj" secondAttribute="bottom" constant="51" id="c3D-9i-Qq6"/>
-                            <constraint firstItem="rJs-rF-2A9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="exf-0a-zls"/>
+                            <constraint firstItem="rJs-rF-2A9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="exf-0a-zls"/>
                             <constraint firstAttribute="bottom" secondItem="rJs-rF-2A9" secondAttribute="bottom" constant="227" id="g8H-Ma-hSG"/>
                             <constraint firstItem="Bxu-6V-rQ4" firstAttribute="top" secondItem="T9L-oF-NaN" secondAttribute="bottom" constant="64" id="gOY-bl-LgH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="26s-Qe-bOj" secondAttribute="trailing" constant="64" id="kXV-4g-DsR"/>
                             <constraint firstItem="1TE-iv-QEu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86.666666666666686" id="l74-Fk-7Rz"/>
                             <constraint firstItem="wGA-FW-gyX" firstAttribute="leading" secondItem="T9L-oF-NaN" secondAttribute="leading" constant="-12" id="n7Q-Ug-8hP"/>
                             <constraint firstItem="1TE-iv-QEu" firstAttribute="top" secondItem="Bxu-6V-rQ4" secondAttribute="bottom" constant="20" id="qJZ-aK-yBL"/>
-                            <constraint firstItem="rJs-rF-2A9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="8" id="uL1-4h-gKh"/>
+                            <constraint firstItem="rJs-rF-2A9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-1" id="uL1-4h-gKh"/>
                             <constraint firstItem="Bxu-6V-rQ4" firstAttribute="centerX" secondItem="1TE-iv-QEu" secondAttribute="centerX" id="vne-oa-r7V"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

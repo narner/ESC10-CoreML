@@ -21,12 +21,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var selectedClip: UILabel!
     @IBOutlet weak var prediction: UILabel!
     @IBOutlet weak var analyzeAudioButton: UIButton!
-    
+    @IBOutlet weak var plotView: UIView!
+
     var audioEngine = AVAudioEngine()
+    var player: AKPlayer!
     var audioFileAnalyzer: SNAudioFileAnalyzer!
     var model: MLModel!
     var soundFiles: [URL]!
-    @IBOutlet weak var plotView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,7 +82,6 @@ class ViewController: UIViewController {
             clockFileURL,
             babyFileURL
         ]
-        
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -89,12 +89,8 @@ class ViewController: UIViewController {
         model = soundClassifier.model
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        do {
-            try AudioKit.stop()
-        } catch {
-            print(error.localizedDescription)
-        }
+    override func viewWillDisappear(_ animated: Bool) {
+        stopAudioEngine()
     }
     
     @IBAction func analyizeRandomAudioClip(_ sender: Any) {
@@ -112,11 +108,11 @@ class ViewController: UIViewController {
         }
 
         //Create a player so we can hear the audio file being analyized
-        var player: AKPlayer!
         if let audioFile = try? AKAudioFile(readFileName: selectedAudioClip.lastPathComponent) {
             player = AKPlayer(audioFile: audioFile)
             player.completionHandler = {
                 self.analyzeAudioButton.isEnabled = true
+                self.stopAudioEngine()
             }
             player.isLooping = false
             player.buffering = .always
@@ -130,6 +126,14 @@ class ViewController: UIViewController {
         
         player.play()
         self.setupAudioPlot(player: player)
+    }
+    
+    func stopAudioEngine(){
+        do {
+            try AudioKit.stop()
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
     func startAudioEngine(audioFileURL: URL) {
