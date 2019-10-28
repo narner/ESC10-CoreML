@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A295DD23663C9B007FA3D4 /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A295DB23663C9B007FA3D4 /* AudioKitUI.framework */; };
+		51E48472235D499A00FD833A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48471235D499A00FD833A /* AppDelegate.swift */; };
+		51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48473235D499A00FD833A /* SceneDelegate.swift */; };
+		51E48476235D499A00FD833A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48475235D499A00FD833A /* ViewController.swift */; };
+		51E48479235D499A00FD833A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E48477235D499A00FD833A /* Main.storyboard */; };
+		51E4847B235D499C00FD833A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E4847A235D499C00FD833A /* Assets.xcassets */; };
+		51E4847E235D499C00FD833A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4847C235D499C00FD833A /* LaunchScreen.storyboard */; };
+		51E48489235D499C00FD833A /* ECS10_CoreML_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48488235D499C00FD833A /* ECS10_CoreML_DemoTests.swift */; };
+		51E48494235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48493235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift */; };
+		51E484A2235D4A7400FD833A /* ResultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E484A1235D4A7400FD833A /* ResultsObserver.swift */; };
+		51E484A6235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */; };
+		51E914082366949800A0E4D9 /* baby-crying.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E913FE2366949800A0E4D9 /* baby-crying.wav */; };
+		51E914092366949800A0E4D9 /* man-sneezing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E913FF2366949800A0E4D9 /* man-sneezing.wav */; };
+		51E9140A2366949800A0E4D9 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914002366949800A0E4D9 /* dog.wav */; };
+		51E9140B2366949800A0E4D9 /* waves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914012366949800A0E4D9 /* waves.wav */; };
+		51E9140C2366949800A0E4D9 /* rooster-crow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914022366949800A0E4D9 /* rooster-crow.wav */; };
+		51E9140D2366949800A0E4D9 /* clock-ticking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914032366949800A0E4D9 /* clock-ticking.wav */; };
+		51E9140E2366949800A0E4D9 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914042366949800A0E4D9 /* rain.wav */; };
+		51E9140F2366949800A0E4D9 /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914052366949800A0E4D9 /* crackling-fire.wav */; };
+		51E914102366949800A0E4D9 /* helicopter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914062366949800A0E4D9 /* helicopter.wav */; };
+		51E914112366949800A0E4D9 /* chainsaw-cutting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914072366949800A0E4D9 /* chainsaw-cutting.wav */; };
+		51F75D94235E6B0C00501D2D /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75D93235E6B0C00501D2D /* ViewControllerTwo.swift */; };
+		51FE892A23667EB0007AF000 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FE892923667EB0007AF000 /* AudioKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51E48485235D499C00FD833A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51E48466235D499A00FD833A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E4846D235D499A00FD833A;
+			remoteInfo = "ECS10-CoreML-Demo";
+		};
+		51E48490235D499C00FD833A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51E48466235D499A00FD833A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E4846D235D499A00FD833A;
+			remoteInfo = "ECS10-CoreML-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51A295DB23663C9B007FA3D4 /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKitUI.framework; sourceTree = "<group>"; };
+		51E4846E235D499A00FD833A /* ECS10-CoreML-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ECS10-CoreML-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E48471235D499A00FD833A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51E48473235D499A00FD833A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51E48475235D499A00FD833A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51E48478235D499A00FD833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51E4847A235D499C00FD833A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51E4847D235D499C00FD833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51E4847F235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E48484235D499C00FD833A /* ECS10-CoreML-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ECS10-CoreML-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E48488235D499C00FD833A /* ECS10_CoreML_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECS10_CoreML_DemoTests.swift; sourceTree = "<group>"; };
+		51E4848A235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E4848F235D499C00FD833A /* ECS10-CoreML-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ECS10-CoreML-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E48493235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECS10_CoreML_DemoUITests.swift; sourceTree = "<group>"; };
+		51E48495235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E484A1235D4A7400FD833A /* ResultsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsObserver.swift; sourceTree = "<group>"; };
+		51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
+		51E913FE2366949800A0E4D9 /* baby-crying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "baby-crying.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/baby-crying.wav"; sourceTree = "<group>"; };
+		51E913FF2366949800A0E4D9 /* man-sneezing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "man-sneezing.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/man-sneezing.wav"; sourceTree = "<group>"; };
+		51E914002366949800A0E4D9 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dog.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/dog.wav"; sourceTree = "<group>"; };
+		51E914012366949800A0E4D9 /* waves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waves.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/waves.wav"; sourceTree = "<group>"; };
+		51E914022366949800A0E4D9 /* rooster-crow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "rooster-crow.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/rooster-crow.wav"; sourceTree = "<group>"; };
+		51E914032366949800A0E4D9 /* clock-ticking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "clock-ticking.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/clock-ticking.wav"; sourceTree = "<group>"; };
+		51E914042366949800A0E4D9 /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rain.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/rain.wav"; sourceTree = "<group>"; };
+		51E914052366949800A0E4D9 /* crackling-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crackling-fire.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/crackling-fire.wav"; sourceTree = "<group>"; };
+		51E914062366949800A0E4D9 /* helicopter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = helicopter.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/helicopter.wav"; sourceTree = "<group>"; };
+		51E914072366949800A0E4D9 /* chainsaw-cutting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "chainsaw-cutting.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/chainsaw-cutting.wav"; sourceTree = "<group>"; };
+		51F75D93235E6B0C00501D2D /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		51FE892923667EB0007AF000 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E4846B235D499A00FD833A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FE892A23667EB0007AF000 /* AudioKit.framework in Frameworks */,
+				51A295DD23663C9B007FA3D4 /* AudioKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E48481235D499C00FD833A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E4848C235D499C00FD833A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51A295DE236641BD007FA3D4 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				51E913FE2366949800A0E4D9 /* baby-crying.wav */,
+				51E914072366949800A0E4D9 /* chainsaw-cutting.wav */,
+				51E914032366949800A0E4D9 /* clock-ticking.wav */,
+				51E914052366949800A0E4D9 /* crackling-fire.wav */,
+				51E914002366949800A0E4D9 /* dog.wav */,
+				51E914062366949800A0E4D9 /* helicopter.wav */,
+				51E913FF2366949800A0E4D9 /* man-sneezing.wav */,
+				51E914042366949800A0E4D9 /* rain.wav */,
+				51E914022366949800A0E4D9 /* rooster-crow.wav */,
+				51E914012366949800A0E4D9 /* waves.wav */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+		51E48465235D499A00FD833A = {
+			isa = PBXGroup;
+			children = (
+				51E48470235D499A00FD833A /* ECS10-CoreML-Demo */,
+				51E48487235D499C00FD833A /* ECS10-CoreML-DemoTests */,
+				51E48492235D499C00FD833A /* ECS10-CoreML-DemoUITests */,
+				51E4846F235D499A00FD833A /* Products */,
+				51ED171E23663761008052FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51E4846F235D499A00FD833A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51E4846E235D499A00FD833A /* ECS10-CoreML-Demo.app */,
+				51E48484235D499C00FD833A /* ECS10-CoreML-DemoTests.xctest */,
+				51E4848F235D499C00FD833A /* ECS10-CoreML-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51E48470235D499A00FD833A /* ECS10-CoreML-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */,
+				51A295DE236641BD007FA3D4 /* AudioFiles */,
+				51E48471235D499A00FD833A /* AppDelegate.swift */,
+				51E48473235D499A00FD833A /* SceneDelegate.swift */,
+				51E48475235D499A00FD833A /* ViewController.swift */,
+				51F75D93235E6B0C00501D2D /* ViewControllerTwo.swift */,
+				51E484A1235D4A7400FD833A /* ResultsObserver.swift */,
+				51E48477235D499A00FD833A /* Main.storyboard */,
+				51E4847A235D499C00FD833A /* Assets.xcassets */,
+				51E4847C235D499C00FD833A /* LaunchScreen.storyboard */,
+				51E4847F235D499C00FD833A /* Info.plist */,
+			);
+			path = "ECS10-CoreML-Demo";
+			sourceTree = "<group>";
+		};
+		51E48487235D499C00FD833A /* ECS10-CoreML-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				51E48488235D499C00FD833A /* ECS10_CoreML_DemoTests.swift */,
+				51E4848A235D499C00FD833A /* Info.plist */,
+			);
+			path = "ECS10-CoreML-DemoTests";
+			sourceTree = "<group>";
+		};
+		51E48492235D499C00FD833A /* ECS10-CoreML-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51E48493235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift */,
+				51E48495235D499C00FD833A /* Info.plist */,
+			);
+			path = "ECS10-CoreML-DemoUITests";
+			sourceTree = "<group>";
+		};
+		51ED171E23663761008052FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51FE892923667EB0007AF000 /* AudioKit.framework */,
+				51A295DB23663C9B007FA3D4 /* AudioKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E48498235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-Demo" */;
+			buildPhases = (
+				51E4846A235D499A00FD833A /* Sources */,
+				51E4846B235D499A00FD833A /* Frameworks */,
+				51E4846C235D499A00FD833A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECS10-CoreML-Demo";
+			productName = "ECS10-CoreML-Demo";
+			productReference = 51E4846E235D499A00FD833A /* ECS10-CoreML-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51E48483235D499C00FD833A /* ECS10-CoreML-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E4849B235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoTests" */;
+			buildPhases = (
+				51E48480235D499C00FD833A /* Sources */,
+				51E48481235D499C00FD833A /* Frameworks */,
+				51E48482235D499C00FD833A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E48486235D499C00FD833A /* PBXTargetDependency */,
+			);
+			name = "ECS10-CoreML-DemoTests";
+			productName = "ECS10-CoreML-DemoTests";
+			productReference = 51E48484235D499C00FD833A /* ECS10-CoreML-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51E4848E235D499C00FD833A /* ECS10-CoreML-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E4849E235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoUITests" */;
+			buildPhases = (
+				51E4848B235D499C00FD833A /* Sources */,
+				51E4848C235D499C00FD833A /* Frameworks */,
+				51E4848D235D499C00FD833A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E48491235D499C00FD833A /* PBXTargetDependency */,
+			);
+			name = "ECS10-CoreML-DemoUITests";
+			productName = "ECS10-CoreML-DemoUITests";
+			productReference = 51E4848F235D499C00FD833A /* ECS10-CoreML-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51E48466235D499A00FD833A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nick Arner";
+				TargetAttributes = {
+					51E4846D235D499A00FD833A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					51E48483235D499C00FD833A = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 51E4846D235D499A00FD833A;
+					};
+					51E4848E235D499C00FD833A = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 51E4846D235D499A00FD833A;
+					};
+				};
+			};
+			buildConfigurationList = 51E48469235D499A00FD833A /* Build configuration list for PBXProject "ECS10-CoreML-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51E48465235D499A00FD833A;
+			productRefGroup = 51E4846F235D499A00FD833A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */,
+				51E48483235D499C00FD833A /* ECS10-CoreML-DemoTests */,
+				51E4848E235D499C00FD833A /* ECS10-CoreML-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51E4846C235D499A00FD833A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E9140E2366949800A0E4D9 /* rain.wav in Resources */,
+				51E914102366949800A0E4D9 /* helicopter.wav in Resources */,
+				51E914092366949800A0E4D9 /* man-sneezing.wav in Resources */,
+				51E4847E235D499C00FD833A /* LaunchScreen.storyboard in Resources */,
+				51E9140C2366949800A0E4D9 /* rooster-crow.wav in Resources */,
+				51E4847B235D499C00FD833A /* Assets.xcassets in Resources */,
+				51E9140A2366949800A0E4D9 /* dog.wav in Resources */,
+				51E9140B2366949800A0E4D9 /* waves.wav in Resources */,
+				51E914112366949800A0E4D9 /* chainsaw-cutting.wav in Resources */,
+				51E914082366949800A0E4D9 /* baby-crying.wav in Resources */,
+				51E9140F2366949800A0E4D9 /* crackling-fire.wav in Resources */,
+				51E9140D2366949800A0E4D9 /* clock-ticking.wav in Resources */,
+				51E48479235D499A00FD833A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E48482235D499C00FD833A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E4848D235D499C00FD833A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E4846A235D499A00FD833A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E48476235D499A00FD833A /* ViewController.swift in Sources */,
+				51E48472235D499A00FD833A /* AppDelegate.swift in Sources */,
+				51E484A6235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel in Sources */,
+				51E484A2235D4A7400FD833A /* ResultsObserver.swift in Sources */,
+				51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */,
+				51F75D94235E6B0C00501D2D /* ViewControllerTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E48480235D499C00FD833A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E48489235D499C00FD833A /* ECS10_CoreML_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E4848B235D499C00FD833A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E48494235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51E48486235D499C00FD833A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */;
+			targetProxy = 51E48485235D499C00FD833A /* PBXContainerItemProxy */;
+		};
+		51E48491235D499C00FD833A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */;
+			targetProxy = 51E48490235D499C00FD833A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51E48477235D499A00FD833A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E48478235D499A00FD833A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51E4847C235D499C00FD833A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E4847D235D499C00FD833A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51E48496235D499C00FD833A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51E48497235D499C00FD833A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51E48499235D499C00FD833A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ECS10-CoreML-Demo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ECS10-CoreML-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "nfa.ECS10-CoreML-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51E4849A235D499C00FD833A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ECS10-CoreML-Demo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ECS10-CoreML-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "nfa.ECS10-CoreML-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51E4849C235D499C00FD833A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F48Y5YTSV;
+				INFOPLIST_FILE = "ECS10-CoreML-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nfa.ECS10-CoreML-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECS10-CoreML-Demo.app/ECS10-CoreML-Demo";
+			};
+			name = Debug;
+		};
+		51E4849D235D499C00FD833A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F48Y5YTSV;
+				INFOPLIST_FILE = "ECS10-CoreML-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nfa.ECS10-CoreML-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECS10-CoreML-Demo.app/ECS10-CoreML-Demo";
+			};
+			name = Release;
+		};
+		51E4849F235D499C00FD833A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F48Y5YTSV;
+				INFOPLIST_FILE = "ECS10-CoreML-DemoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nfa.ECS10-CoreML-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ECS10-CoreML-Demo";
+			};
+			name = Debug;
+		};
+		51E484A0235D499C00FD833A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F48Y5YTSV;
+				INFOPLIST_FILE = "ECS10-CoreML-DemoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nfa.ECS10-CoreML-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ECS10-CoreML-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51E48469235D499A00FD833A /* Build configuration list for PBXProject "ECS10-CoreML-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E48496235D499C00FD833A /* Debug */,
+				51E48497235D499C00FD833A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E48498235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E48499235D499C00FD833A /* Debug */,
+				51E4849A235D499C00FD833A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E4849B235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E4849C235D499C00FD833A /* Debug */,
+				51E4849D235D499C00FD833A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E4849E235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E4849F235D499C00FD833A /* Debug */,
+				51E484A0235D499C00FD833A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51E48466235D499A00FD833A /* Project object */;
+}
