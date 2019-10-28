@@ -28,7 +28,6 @@
 		51E9140F2366949800A0E4D9 /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914052366949800A0E4D9 /* crackling-fire.wav */; };
 		51E914102366949800A0E4D9 /* helicopter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914062366949800A0E4D9 /* helicopter.wav */; };
 		51E914112366949800A0E4D9 /* chainsaw-cutting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914072366949800A0E4D9 /* chainsaw-cutting.wav */; };
-		51F75D94235E6B0C00501D2D /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75D93235E6B0C00501D2D /* ViewControllerTwo.swift */; };
 		51FE892A23667EB0007AF000 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FE892923667EB0007AF000 /* AudioKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		51A295DB23663C9B007FA3D4 /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKitUI.framework; sourceTree = "<group>"; };
-		51E4846E235D499A00FD833A /* ECS10-CoreML-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ECS10-CoreML-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E4846E235D499A00FD833A /* ESC10-CoreML-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESC10-CoreML-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E48471235D499A00FD833A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E48473235D499A00FD833A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51E48475235D499A00FD833A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +58,10 @@
 		51E4847A235D499C00FD833A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51E4847D235D499C00FD833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51E4847F235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51E48484235D499C00FD833A /* ECS10-CoreML-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ECS10-CoreML-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E48484235D499C00FD833A /* ESC10-CoreML-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESC10-CoreML-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E48488235D499C00FD833A /* ECS10_CoreML_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECS10_CoreML_DemoTests.swift; sourceTree = "<group>"; };
 		51E4848A235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51E4848F235D499C00FD833A /* ECS10-CoreML-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ECS10-CoreML-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E4848F235D499C00FD833A /* ESC10-CoreML-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESC10-CoreML-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E48493235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECS10_CoreML_DemoUITests.swift; sourceTree = "<group>"; };
 		51E48495235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E484A1235D4A7400FD833A /* ResultsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsObserver.swift; sourceTree = "<group>"; };
@@ -77,7 +76,6 @@
 		51E914052366949800A0E4D9 /* crackling-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crackling-fire.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/crackling-fire.wav"; sourceTree = "<group>"; };
 		51E914062366949800A0E4D9 /* helicopter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = helicopter.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/helicopter.wav"; sourceTree = "<group>"; };
 		51E914072366949800A0E4D9 /* chainsaw-cutting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "chainsaw-cutting.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/chainsaw-cutting.wav"; sourceTree = "<group>"; };
-		51F75D93235E6B0C00501D2D /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		51FE892923667EB0007AF000 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,9 +137,9 @@
 		51E4846F235D499A00FD833A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51E4846E235D499A00FD833A /* ECS10-CoreML-Demo.app */,
-				51E48484235D499C00FD833A /* ECS10-CoreML-DemoTests.xctest */,
-				51E4848F235D499C00FD833A /* ECS10-CoreML-DemoUITests.xctest */,
+				51E4846E235D499A00FD833A /* ESC10-CoreML-Demo.app */,
+				51E48484235D499C00FD833A /* ESC10-CoreML-DemoTests.xctest */,
+				51E4848F235D499C00FD833A /* ESC10-CoreML-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +152,6 @@
 				51E48471235D499A00FD833A /* AppDelegate.swift */,
 				51E48473235D499A00FD833A /* SceneDelegate.swift */,
 				51E48475235D499A00FD833A /* ViewController.swift */,
-				51F75D93235E6B0C00501D2D /* ViewControllerTwo.swift */,
 				51E484A1235D4A7400FD833A /* ResultsObserver.swift */,
 				51E48477235D499A00FD833A /* Main.storyboard */,
 				51E4847A235D499C00FD833A /* Assets.xcassets */,
@@ -194,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */ = {
+		51E4846D235D499A00FD833A /* ESC10-CoreML-Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51E48498235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-Demo" */;
+			buildConfigurationList = 51E48498235D499C00FD833A /* Build configuration list for PBXNativeTarget "ESC10-CoreML-Demo" */;
 			buildPhases = (
 				51E4846A235D499A00FD833A /* Sources */,
 				51E4846B235D499A00FD833A /* Frameworks */,
@@ -206,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = "ECS10-CoreML-Demo";
+			name = "ESC10-CoreML-Demo";
 			productName = "ECS10-CoreML-Demo";
-			productReference = 51E4846E235D499A00FD833A /* ECS10-CoreML-Demo.app */;
+			productReference = 51E4846E235D499A00FD833A /* ESC10-CoreML-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		51E48483235D499C00FD833A /* ECS10-CoreML-DemoTests */ = {
+		51E48483235D499C00FD833A /* ESC10-CoreML-DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51E4849B235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoTests" */;
+			buildConfigurationList = 51E4849B235D499C00FD833A /* Build configuration list for PBXNativeTarget "ESC10-CoreML-DemoTests" */;
 			buildPhases = (
 				51E48480235D499C00FD833A /* Sources */,
 				51E48481235D499C00FD833A /* Frameworks */,
@@ -224,14 +221,14 @@
 			dependencies = (
 				51E48486235D499C00FD833A /* PBXTargetDependency */,
 			);
-			name = "ECS10-CoreML-DemoTests";
+			name = "ESC10-CoreML-DemoTests";
 			productName = "ECS10-CoreML-DemoTests";
-			productReference = 51E48484235D499C00FD833A /* ECS10-CoreML-DemoTests.xctest */;
+			productReference = 51E48484235D499C00FD833A /* ESC10-CoreML-DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		51E4848E235D499C00FD833A /* ECS10-CoreML-DemoUITests */ = {
+		51E4848E235D499C00FD833A /* ESC10-CoreML-DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51E4849E235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoUITests" */;
+			buildConfigurationList = 51E4849E235D499C00FD833A /* Build configuration list for PBXNativeTarget "ESC10-CoreML-DemoUITests" */;
 			buildPhases = (
 				51E4848B235D499C00FD833A /* Sources */,
 				51E4848C235D499C00FD833A /* Frameworks */,
@@ -242,9 +239,9 @@
 			dependencies = (
 				51E48491235D499C00FD833A /* PBXTargetDependency */,
 			);
-			name = "ECS10-CoreML-DemoUITests";
+			name = "ESC10-CoreML-DemoUITests";
 			productName = "ECS10-CoreML-DemoUITests";
-			productReference = 51E4848F235D499C00FD833A /* ECS10-CoreML-DemoUITests.xctest */;
+			productReference = 51E4848F235D499C00FD833A /* ESC10-CoreML-DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 51E48469235D499A00FD833A /* Build configuration list for PBXProject "ECS10-CoreML-Demo" */;
+			buildConfigurationList = 51E48469235D499A00FD833A /* Build configuration list for PBXProject "ESC10-CoreML-Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -283,9 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */,
-				51E48483235D499C00FD833A /* ECS10-CoreML-DemoTests */,
-				51E4848E235D499C00FD833A /* ECS10-CoreML-DemoUITests */,
+				51E4846D235D499A00FD833A /* ESC10-CoreML-Demo */,
+				51E48483235D499C00FD833A /* ESC10-CoreML-DemoTests */,
+				51E4848E235D499C00FD833A /* ESC10-CoreML-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +334,6 @@
 				51E484A6235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel in Sources */,
 				51E484A2235D4A7400FD833A /* ResultsObserver.swift in Sources */,
 				51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */,
-				51F75D94235E6B0C00501D2D /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,12 +358,12 @@
 /* Begin PBXTargetDependency section */
 		51E48486235D499C00FD833A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */;
+			target = 51E4846D235D499A00FD833A /* ESC10-CoreML-Demo */;
 			targetProxy = 51E48485235D499C00FD833A /* PBXContainerItemProxy */;
 		};
 		51E48491235D499C00FD833A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51E4846D235D499A00FD833A /* ECS10-CoreML-Demo */;
+			target = 51E4846D235D499A00FD833A /* ESC10-CoreML-Demo */;
 			targetProxy = 51E48490235D499C00FD833A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECS10-CoreML-Demo.app/ECS10-CoreML-Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESC10-CoreML-Demo.app/ESC10-CoreML-Demo";
 			};
 			name = Debug;
 		};
@@ -596,7 +592,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECS10-CoreML-Demo.app/ECS10-CoreML-Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESC10-CoreML-Demo.app/ESC10-CoreML-Demo";
 			};
 			name = Release;
 		};
@@ -645,7 +641,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51E48469235D499A00FD833A /* Build configuration list for PBXProject "ECS10-CoreML-Demo" */ = {
+		51E48469235D499A00FD833A /* Build configuration list for PBXProject "ESC10-CoreML-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51E48496235D499C00FD833A /* Debug */,
@@ -654,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51E48498235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-Demo" */ = {
+		51E48498235D499C00FD833A /* Build configuration list for PBXNativeTarget "ESC10-CoreML-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51E48499235D499C00FD833A /* Debug */,
@@ -663,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51E4849B235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoTests" */ = {
+		51E4849B235D499C00FD833A /* Build configuration list for PBXNativeTarget "ESC10-CoreML-DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51E4849C235D499C00FD833A /* Debug */,
@@ -672,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51E4849E235D499C00FD833A /* Build configuration list for PBXNativeTarget "ECS10-CoreML-DemoUITests" */ = {
+		51E4849E235D499C00FD833A /* Build configuration list for PBXNativeTarget "ESC10-CoreML-DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51E4849F235D499C00FD833A /* Debug */,

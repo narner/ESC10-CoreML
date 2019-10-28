@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51E4846D235D499A00FD833A"
-               BuildableName = "ECS10-CoreML-Demo.app"
-               BlueprintName = "ECS10-CoreML-Demo"
-               ReferencedContainer = "container:ECS10-CoreML-Demo.xcodeproj">
+               BuildableName = "ESC10-CoreML-Demo.app"
+               BlueprintName = "ESC10-CoreML-Demo"
+               ReferencedContainer = "container:ESC10-CoreML-Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51E48483235D499C00FD833A"
-               BuildableName = "ECS10-CoreML-DemoTests.xctest"
-               BlueprintName = "ECS10-CoreML-DemoTests"
-               ReferencedContainer = "container:ECS10-CoreML-Demo.xcodeproj">
+               BuildableName = "ESC10-CoreML-DemoTests.xctest"
+               BlueprintName = "ESC10-CoreML-DemoTests"
+               ReferencedContainer = "container:ESC10-CoreML-Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51E4848E235D499C00FD833A"
-               BuildableName = "ECS10-CoreML-DemoUITests.xctest"
-               BlueprintName = "ECS10-CoreML-DemoUITests"
-               ReferencedContainer = "container:ECS10-CoreML-Demo.xcodeproj">
+               BuildableName = "ESC10-CoreML-DemoUITests.xctest"
+               BlueprintName = "ESC10-CoreML-DemoUITests"
+               ReferencedContainer = "container:ESC10-CoreML-Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51E4846D235D499A00FD833A"
-            BuildableName = "ECS10-CoreML-Demo.app"
-            BlueprintName = "ECS10-CoreML-Demo"
-            ReferencedContainer = "container:ECS10-CoreML-Demo.xcodeproj">
+            BuildableName = "ESC10-CoreML-Demo.app"
+            BlueprintName = "ESC10-CoreML-Demo"
+            ReferencedContainer = "container:ESC10-CoreML-Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51E4846D235D499A00FD833A"
-            BuildableName = "ECS10-CoreML-Demo.app"
-            BlueprintName = "ECS10-CoreML-Demo"
-            ReferencedContainer = "container:ECS10-CoreML-Demo.xcodeproj">
+            BuildableName = "ESC10-CoreML-Demo.app"
+            BlueprintName = "ESC10-CoreML-Demo"
+            ReferencedContainer = "container:ESC10-CoreML-Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

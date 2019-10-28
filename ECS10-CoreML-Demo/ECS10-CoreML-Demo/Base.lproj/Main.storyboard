@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +11,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ECS10_CoreML_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Clip:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26s-Qe-bOj">
-                                <rect key="frame" x="87" y="527" width="263" height="53"/>
+                                <rect key="frame" x="87" y="391" width="449" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="XFw-g4-JMR"/>
                                 </constraints>
@@ -25,17 +24,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-rF-2A9" customClass="EZAudioPlot">
-                                <rect key="frame" x="44" y="259" width="324" height="250"/>
+                                <rect key="frame" x="44" y="259" width="510" height="114"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prediction:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGA-FW-gyX">
-                                <rect key="frame" x="91" y="631" width="247" height="53"/>
+                                <rect key="frame" x="91" y="495" width="433" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECS10-CoreML-Demo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9L-oF-NaN">
-                                <rect key="frame" x="103" y="34" width="208" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESC10-CoreML-Demo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9L-oF-NaN">
+                                <rect key="frame" x="103" y="34" width="394" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Q8S-SF-xMs"/>
                                 </constraints>
@@ -44,7 +43,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Audio File Classification using a CoreML model based on the ECS-10 Dataset" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxu-6V-rQ4">
-                                <rect key="frame" x="87" y="148" width="240" height="63"/>
+                                <rect key="frame" x="87" y="148" width="426" height="63"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="MT4-Cn-tkq"/>
@@ -54,7 +53,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TE-iv-QEu">
-                                <rect key="frame" x="86.666666666666671" y="231" width="240.66666666666663" height="30"/>
+                                <rect key="frame" x="87" y="231" width="426" height="30"/>
                                 <state key="normal" title="Analyze Random Audio Clip"/>
                                 <connections>
                                     <action selector="analyizeRandomAudioClip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBa-0a-7Ro"/>
