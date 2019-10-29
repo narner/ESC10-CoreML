@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517C4BED2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 517C4BEC2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel */; };
 		51A236242367EE9000D2506A /* waves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236232367EE9000D2506A /* waves.wav */; };
 		51A236282367FA4A00D2506A /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236272367FA4A00D2506A /* crackling-fire.wav */; };
 		51A2362A2367FA5E00D2506A /* dogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236292367FA5E00D2506A /* dogs.wav */; };
@@ -19,28 +20,26 @@
 		51E48489235D499C00FD833A /* ECS10_CoreML_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48488235D499C00FD833A /* ECS10_CoreML_DemoTests.swift */; };
 		51E48494235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48493235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift */; };
 		51E484A2235D4A7400FD833A /* ResultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E484A1235D4A7400FD833A /* ResultsObserver.swift */; };
-		51E484A6235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */; };
 		51E914082366949800A0E4D9 /* baby-crying.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E913FE2366949800A0E4D9 /* baby-crying.wav */; };
 		51E914092366949800A0E4D9 /* man-sneezing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E913FF2366949800A0E4D9 /* man-sneezing.wav */; };
 		51E9140C2366949800A0E4D9 /* rooster-crow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914022366949800A0E4D9 /* rooster-crow.wav */; };
 		51E9140D2366949800A0E4D9 /* clock-ticking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914032366949800A0E4D9 /* clock-ticking.wav */; };
 		51E9140E2366949800A0E4D9 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914042366949800A0E4D9 /* rain.wav */; };
-		51E9140F2366949800A0E4D9 /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914052366949800A0E4D9 /* crackling-fire.wav */; };
 		51E914102366949800A0E4D9 /* helicopter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914062366949800A0E4D9 /* helicopter.wav */; };
 		51E914112366949800A0E4D9 /* chainsaw-cutting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914072366949800A0E4D9 /* chainsaw-cutting.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51C1305E2367C3E300CB51AF /* PBXContainerItemProxy */ = {
+		517C4BE823689EFF00FF6419 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 51C130592367C3E200CB51AF /* AudioKit For iOS.xcodeproj */;
+			containerPortal = 517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C42F35001C057E03000E937C;
 			remoteInfo = AudioKit;
 		};
-		51C130602367C3E300CB51AF /* PBXContainerItemProxy */ = {
+		517C4BEA23689EFF00FF6419 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 51C130592367C3E200CB51AF /* AudioKit For iOS.xcodeproj */;
+			containerPortal = 517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EA7D07011F4E63C200707706;
 			remoteInfo = AudioKitUI;
@@ -62,10 +61,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "AudioKit/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
+		517C4BEC2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ESC-10 Sound Classifier.mlmodel"; path = "../../ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
 		51A236232367EE9000D2506A /* waves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waves.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/waves.wav"; sourceTree = "<group>"; };
 		51A236272367FA4A00D2506A /* crackling-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crackling-fire.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/crackling-fire.wav"; sourceTree = "<group>"; };
 		51A236292367FA5E00D2506A /* dogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dogs.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/dogs.wav"; sourceTree = "<group>"; };
-		51C130592367C3E200CB51AF /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "../AudioKit/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
 		51E4846E235D499A00FD833A /* ESC10-CoreML-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESC10-CoreML-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E48471235D499A00FD833A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E48473235D499A00FD833A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +81,6 @@
 		51E48493235D499C00FD833A /* ECS10_CoreML_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECS10_CoreML_DemoUITests.swift; sourceTree = "<group>"; };
 		51E48495235D499C00FD833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E484A1235D4A7400FD833A /* ResultsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsObserver.swift; sourceTree = "<group>"; };
-		51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
 		51E913FE2366949800A0E4D9 /* baby-crying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "baby-crying.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/baby-crying.wav"; sourceTree = "<group>"; };
 		51E913FF2366949800A0E4D9 /* man-sneezing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "man-sneezing.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/man-sneezing.wav"; sourceTree = "<group>"; };
 		51E914022366949800A0E4D9 /* rooster-crow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "rooster-crow.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/rooster-crow.wav"; sourceTree = "<group>"; };
@@ -117,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517C4BE423689EFF00FF6419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517C4BE923689EFF00FF6419 /* AudioKit.framework */,
+				517C4BEB23689EFF00FF6419 /* AudioKitUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		51A295DE236641BD007FA3D4 /* AudioFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,19 +143,10 @@
 			path = AudioFiles;
 			sourceTree = "<group>";
 		};
-		51C1305A2367C3E200CB51AF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				51C1305F2367C3E300CB51AF /* AudioKit.framework */,
-				51C130612367C3E300CB51AF /* AudioKitUI.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		51E48465235D499A00FD833A = {
 			isa = PBXGroup;
 			children = (
-				51C130592367C3E200CB51AF /* AudioKit For iOS.xcodeproj */,
+				517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */,
 				51E48470235D499A00FD833A /* ECS10-CoreML-Demo */,
 				51E48487235D499C00FD833A /* ECS10-CoreML-DemoTests */,
 				51E48492235D499C00FD833A /* ECS10-CoreML-DemoUITests */,
@@ -169,7 +168,7 @@
 		51E48470235D499A00FD833A /* ECS10-CoreML-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */,
+				517C4BEC2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel */,
 				51A295DE236641BD007FA3D4 /* AudioFiles */,
 				51E48471235D499A00FD833A /* AppDelegate.swift */,
 				51E48473235D499A00FD833A /* SceneDelegate.swift */,
@@ -300,8 +299,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 51C1305A2367C3E200CB51AF /* Products */;
-					ProjectRef = 51C130592367C3E200CB51AF /* AudioKit For iOS.xcodeproj */;
+					ProductGroup = 517C4BE423689EFF00FF6419 /* Products */;
+					ProjectRef = 517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -314,18 +313,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		51C1305F2367C3E300CB51AF /* AudioKit.framework */ = {
+		517C4BE923689EFF00FF6419 /* AudioKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = AudioKit.framework;
-			remoteRef = 51C1305E2367C3E300CB51AF /* PBXContainerItemProxy */;
+			remoteRef = 517C4BE823689EFF00FF6419 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		51C130612367C3E300CB51AF /* AudioKitUI.framework */ = {
+		517C4BEB23689EFF00FF6419 /* AudioKitUI.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = AudioKitUI.framework;
-			remoteRef = 51C130602367C3E300CB51AF /* PBXContainerItemProxy */;
+			remoteRef = 517C4BEA23689EFF00FF6419 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -345,7 +344,6 @@
 				51E914112366949800A0E4D9 /* chainsaw-cutting.wav in Resources */,
 				51E914082366949800A0E4D9 /* baby-crying.wav in Resources */,
 				51A236282367FA4A00D2506A /* crackling-fire.wav in Resources */,
-				51E9140F2366949800A0E4D9 /* crackling-fire.wav in Resources */,
 				51E9140D2366949800A0E4D9 /* clock-ticking.wav in Resources */,
 				51E48479235D499A00FD833A /* Main.storyboard in Resources */,
 				51A236242367EE9000D2506A /* waves.wav in Resources */,
@@ -375,7 +373,7 @@
 			files = (
 				51E48476235D499A00FD833A /* ViewController.swift in Sources */,
 				51E48472235D499A00FD833A /* AppDelegate.swift in Sources */,
-				51E484A6235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel in Sources */,
+				517C4BED2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel in Sources */,
 				51E484A2235D4A7400FD833A /* ResultsObserver.swift in Sources */,
 				51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */,
 			);
