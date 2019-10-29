@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		51A236242367EE9000D2506A /* waves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236232367EE9000D2506A /* waves.wav */; };
+		51A236282367FA4A00D2506A /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236272367FA4A00D2506A /* crackling-fire.wav */; };
+		51A2362A2367FA5E00D2506A /* dogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236292367FA5E00D2506A /* dogs.wav */; };
 		51E48472235D499A00FD833A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48471235D499A00FD833A /* AppDelegate.swift */; };
 		51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48473235D499A00FD833A /* SceneDelegate.swift */; };
 		51E48476235D499A00FD833A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48475235D499A00FD833A /* ViewController.swift */; };
@@ -20,7 +22,6 @@
 		51E484A6235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */; };
 		51E914082366949800A0E4D9 /* baby-crying.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E913FE2366949800A0E4D9 /* baby-crying.wav */; };
 		51E914092366949800A0E4D9 /* man-sneezing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E913FF2366949800A0E4D9 /* man-sneezing.wav */; };
-		51E9140A2366949800A0E4D9 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914002366949800A0E4D9 /* dog.wav */; };
 		51E9140C2366949800A0E4D9 /* rooster-crow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914022366949800A0E4D9 /* rooster-crow.wav */; };
 		51E9140D2366949800A0E4D9 /* clock-ticking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914032366949800A0E4D9 /* clock-ticking.wav */; };
 		51E9140E2366949800A0E4D9 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E914042366949800A0E4D9 /* rain.wav */; };
@@ -62,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		51A236232367EE9000D2506A /* waves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waves.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/waves.wav"; sourceTree = "<group>"; };
+		51A236272367FA4A00D2506A /* crackling-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crackling-fire.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/crackling-fire.wav"; sourceTree = "<group>"; };
+		51A236292367FA5E00D2506A /* dogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dogs.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/dogs.wav"; sourceTree = "<group>"; };
 		51C130592367C3E200CB51AF /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "../AudioKit/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
 		51E4846E235D499A00FD833A /* ESC10-CoreML-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESC10-CoreML-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E48471235D499A00FD833A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +84,6 @@
 		51E484A5235D4DCA00FD833A /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
 		51E913FE2366949800A0E4D9 /* baby-crying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "baby-crying.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/baby-crying.wav"; sourceTree = "<group>"; };
 		51E913FF2366949800A0E4D9 /* man-sneezing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "man-sneezing.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/man-sneezing.wav"; sourceTree = "<group>"; };
-		51E914002366949800A0E4D9 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dog.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/dog.wav"; sourceTree = "<group>"; };
 		51E914022366949800A0E4D9 /* rooster-crow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "rooster-crow.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/rooster-crow.wav"; sourceTree = "<group>"; };
 		51E914032366949800A0E4D9 /* clock-ticking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "clock-ticking.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/clock-ticking.wav"; sourceTree = "<group>"; };
 		51E914042366949800A0E4D9 /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rain.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/rain.wav"; sourceTree = "<group>"; };
@@ -122,11 +124,12 @@
 				51E914072366949800A0E4D9 /* chainsaw-cutting.wav */,
 				51E914032366949800A0E4D9 /* clock-ticking.wav */,
 				51E914052366949800A0E4D9 /* crackling-fire.wav */,
-				51E914002366949800A0E4D9 /* dog.wav */,
 				51E914062366949800A0E4D9 /* helicopter.wav */,
+				51A236292367FA5E00D2506A /* dogs.wav */,
 				51E913FF2366949800A0E4D9 /* man-sneezing.wav */,
 				51E914042366949800A0E4D9 /* rain.wav */,
 				51A236232367EE9000D2506A /* waves.wav */,
+				51A236272367FA4A00D2506A /* crackling-fire.wav */,
 				51E914022366949800A0E4D9 /* rooster-crow.wav */,
 			);
 			path = AudioFiles;
@@ -337,10 +340,11 @@
 				51E914092366949800A0E4D9 /* man-sneezing.wav in Resources */,
 				51E4847E235D499C00FD833A /* LaunchScreen.storyboard in Resources */,
 				51E9140C2366949800A0E4D9 /* rooster-crow.wav in Resources */,
+				51A2362A2367FA5E00D2506A /* dogs.wav in Resources */,
 				51E4847B235D499C00FD833A /* Assets.xcassets in Resources */,
-				51E9140A2366949800A0E4D9 /* dog.wav in Resources */,
 				51E914112366949800A0E4D9 /* chainsaw-cutting.wav in Resources */,
 				51E914082366949800A0E4D9 /* baby-crying.wav in Resources */,
+				51A236282367FA4A00D2506A /* crackling-fire.wav in Resources */,
 				51E9140F2366949800A0E4D9 /* crackling-fire.wav in Resources */,
 				51E9140D2366949800A0E4D9 /* clock-ticking.wav in Resources */,
 				51E48479235D499A00FD833A /* Main.storyboard in Resources */,

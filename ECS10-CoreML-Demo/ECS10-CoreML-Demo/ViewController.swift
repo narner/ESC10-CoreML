@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         let rainFileURLPath = Bundle.main.path(forResource: "rain", ofType: "wav")
         let rainFileURL = NSURL.fileURL(withPath: rainFileURLPath!)
 
-        let dogFileURLPath = Bundle.main.path(forResource: "dog", ofType: "wav")
+        let dogFileURLPath = Bundle.main.path(forResource: "dogs", ofType: "wav")
         let dogFileURL = NSURL.fileURL(withPath: dogFileURLPath!)
 
         let sneezeFileURLPath = Bundle.main.path(forResource:
