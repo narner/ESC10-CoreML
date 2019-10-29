@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -9,13 +10,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ECS10_CoreML_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ESC10_CoreML_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Clip:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26s-Qe-bOj">
-                                <rect key="frame" x="87" y="391" width="449" height="53"/>
+                                <rect key="frame" x="87" y="687" width="263" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="XFw-g4-JMR"/>
                                 </constraints>
@@ -24,17 +25,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-rF-2A9" customClass="EZAudioPlot">
-                                <rect key="frame" x="44" y="259" width="510" height="114"/>
+                                <rect key="frame" x="44" y="303" width="324" height="366"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prediction:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGA-FW-gyX">
-                                <rect key="frame" x="91" y="495" width="433" height="53"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESC10-CoreML-Demo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9L-oF-NaN">
-                                <rect key="frame" x="103" y="34" width="394" height="50"/>
+                                <rect key="frame" x="103" y="78" width="208" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Q8S-SF-xMs"/>
                                 </constraints>
@@ -43,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Audio File Classification using a CoreML model based on the ECS-10 Dataset" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxu-6V-rQ4">
-                                <rect key="frame" x="87" y="148" width="426" height="63"/>
+                                <rect key="frame" x="87" y="192" width="240" height="63"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="MT4-Cn-tkq"/>
@@ -53,12 +48,18 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TE-iv-QEu">
-                                <rect key="frame" x="87" y="231" width="426" height="30"/>
+                                <rect key="frame" x="86.5" y="275" width="241" height="30"/>
                                 <state key="normal" title="Analyze Random Audio Clip"/>
                                 <connections>
                                     <action selector="analyizeRandomAudioClip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBa-0a-7Ro"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prediction:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGA-FW-gyX">
+                                <rect key="frame" x="87" y="761" width="252" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -68,18 +69,18 @@
                             <constraint firstItem="T9L-oF-NaN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="K0s-aA-M8q"/>
                             <constraint firstItem="rJs-rF-2A9" firstAttribute="centerX" secondItem="1TE-iv-QEu" secondAttribute="centerX" constant="-1" id="M0p-Ue-cCy"/>
                             <constraint firstItem="rJs-rF-2A9" firstAttribute="top" secondItem="1TE-iv-QEu" secondAttribute="bottom" constant="-2" id="MZ9-H5-WTN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wGA-FW-gyX" secondAttribute="bottom" constant="52" id="RQN-iY-3aN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wGA-FW-gyX" secondAttribute="bottom" constant="27" id="RQN-iY-3aN"/>
                             <constraint firstItem="26s-Qe-bOj" firstAttribute="top" secondItem="rJs-rF-2A9" secondAttribute="bottom" constant="18" id="RUf-sz-gdv"/>
                             <constraint firstItem="T9L-oF-NaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="VyF-ai-Oac"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wGA-FW-gyX" secondAttribute="trailing" constant="76" id="ZvC-aq-KLG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wGA-FW-gyX" secondAttribute="trailing" constant="75" id="ZvC-aq-KLG"/>
                             <constraint firstItem="26s-Qe-bOj" firstAttribute="leading" secondItem="Bxu-6V-rQ4" secondAttribute="leading" id="aeG-os-htb"/>
-                            <constraint firstItem="wGA-FW-gyX" firstAttribute="top" secondItem="26s-Qe-bOj" secondAttribute="bottom" constant="51" id="c3D-9i-Qq6"/>
+                            <constraint firstItem="wGA-FW-gyX" firstAttribute="top" secondItem="26s-Qe-bOj" secondAttribute="bottom" constant="21" id="c3D-9i-Qq6"/>
                             <constraint firstItem="rJs-rF-2A9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="exf-0a-zls"/>
                             <constraint firstAttribute="bottom" secondItem="rJs-rF-2A9" secondAttribute="bottom" constant="227" id="g8H-Ma-hSG"/>
                             <constraint firstItem="Bxu-6V-rQ4" firstAttribute="top" secondItem="T9L-oF-NaN" secondAttribute="bottom" constant="64" id="gOY-bl-LgH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="26s-Qe-bOj" secondAttribute="trailing" constant="64" id="kXV-4g-DsR"/>
                             <constraint firstItem="1TE-iv-QEu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86.666666666666686" id="l74-Fk-7Rz"/>
-                            <constraint firstItem="wGA-FW-gyX" firstAttribute="leading" secondItem="T9L-oF-NaN" secondAttribute="leading" constant="-12" id="n7Q-Ug-8hP"/>
+                            <constraint firstItem="wGA-FW-gyX" firstAttribute="leading" secondItem="T9L-oF-NaN" secondAttribute="leading" constant="-16" id="n7Q-Ug-8hP"/>
                             <constraint firstItem="1TE-iv-QEu" firstAttribute="top" secondItem="Bxu-6V-rQ4" secondAttribute="bottom" constant="20" id="qJZ-aK-yBL"/>
                             <constraint firstItem="rJs-rF-2A9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-1" id="uL1-4h-gKh"/>
                             <constraint firstItem="Bxu-6V-rQ4" firstAttribute="centerX" secondItem="1TE-iv-QEu" secondAttribute="centerX" id="vne-oa-r7V"/>
@@ -95,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134.78260869565219" y="107.60869565217392"/>
+            <point key="canvasLocation" x="134.78260869565219" y="107.14285714285714"/>
         </scene>
     </scenes>
 </document>

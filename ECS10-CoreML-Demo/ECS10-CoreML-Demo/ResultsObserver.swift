@@ -32,7 +32,7 @@ class ResultsObserver : NSObject, SNResultsObserving {
         print("\(classification.identifier): \(percent) confidence.\n")
         
         classificationResult = classification.identifier
-        classificationConfidence = classification.confidence
+        classificationConfidence = confidence
     }
     
     func request(_ request: SNRequest, didFailWithError error: Error) {

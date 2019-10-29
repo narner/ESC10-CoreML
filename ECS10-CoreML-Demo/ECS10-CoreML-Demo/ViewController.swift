@@ -161,9 +161,12 @@ class ViewController: UIViewController {
         audioFileAnalyzer.analyze()
         
         //Update the UI
-        DispatchQueue.main.async {
-            self.prediction.text = "Prediction: " + resultsObserver.classificationResult
+        if resultsObserver.classificationConfidence >= 90.0 {
         }
+       DispatchQueue.main.async {
+                      self.prediction.text = "Prediction: " + resultsObserver.classificationResult
+                  }
+            
     }
     
     //Create a waveform plot
