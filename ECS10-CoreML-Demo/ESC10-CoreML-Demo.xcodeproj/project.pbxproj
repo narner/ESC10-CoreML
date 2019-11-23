@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512060212389B87600CBE1B7 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517C4BE923689EFF00FF6419 /* AudioKit.framework */; };
+		512060222389B87600CBE1B7 /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517C4BEB23689EFF00FF6419 /* AudioKitUI.framework */; };
 		517C4BED2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 517C4BEC2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel */; };
+		519D581823708D6100D0ABC5 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519D581523708D6100D0ABC5 /* ViewControllerTwo.swift */; };
 		51A236242367EE9000D2506A /* waves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236232367EE9000D2506A /* waves.wav */; };
 		51A236282367FA4A00D2506A /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236272367FA4A00D2506A /* crackling-fire.wav */; };
 		51A2362A2367FA5E00D2506A /* dogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236292367FA5E00D2506A /* dogs.wav */; };
@@ -63,6 +66,7 @@
 /* Begin PBXFileReference section */
 		517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "AudioKit/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
 		517C4BEC2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ESC-10 Sound Classifier.mlmodel"; path = "../../ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
+		519D581523708D6100D0ABC5 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		51A236232367EE9000D2506A /* waves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waves.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/waves.wav"; sourceTree = "<group>"; };
 		51A236272367FA4A00D2506A /* crackling-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crackling-fire.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/crackling-fire.wav"; sourceTree = "<group>"; };
 		51A236292367FA5E00D2506A /* dogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dogs.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/dogs.wav"; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512060212389B87600CBE1B7 /* AudioKit.framework in Frameworks */,
+				512060222389B87600CBE1B7 /* AudioKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +179,7 @@
 				51E48471235D499A00FD833A /* AppDelegate.swift */,
 				51E48473235D499A00FD833A /* SceneDelegate.swift */,
 				51E48475235D499A00FD833A /* ViewController.swift */,
+				519D581523708D6100D0ABC5 /* ViewControllerTwo.swift */,
 				51E484A1235D4A7400FD833A /* ResultsObserver.swift */,
 				51E48477235D499A00FD833A /* Main.storyboard */,
 				51E4847A235D499C00FD833A /* Assets.xcassets */,
@@ -376,6 +383,7 @@
 				517C4BED2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel in Sources */,
 				51E484A2235D4A7400FD833A /* ResultsObserver.swift in Sources */,
 				51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */,
+				519D581823708D6100D0ABC5 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
