@@ -62,24 +62,8 @@
             filePath = "ECS10-CoreML-Demo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "analyizeRandomAudioClip(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B7329D15-9FD7-4393-8861-D0E2FF8AB8D5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ECS10-CoreML-Demo/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "analyizeRandomAudioClip(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,9 +78,9 @@
             filePath = "ECS10-CoreML-Demo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "startAudioEngine(audioFileURL:)"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "startAudioAnalysis(audioFileURL:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

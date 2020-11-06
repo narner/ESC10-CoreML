@@ -1,3 +1,0 @@
-[submodule "ECS10-CoreML-Demo/AudioKit"]
-	path = ECS10-CoreML-Demo/AudioKit
-	url = https://github.com/AudioKit/AudioKit.git

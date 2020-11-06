@@ -10,11 +10,10 @@ import UIKit
 import SoundAnalysis
 import CoreML
 import AudioKit
-import AudioKitUI
 
 //from https://developer.apple.com/documentation/soundanalysis/analyzing_audio_to_classify_sounds
-
 //https://developer.apple.com/documentation/createml/mlsoundclassifier
+
 class ViewController: UIViewController {
     // Create a new audio engine.
 
@@ -22,9 +21,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var prediction: UILabel!
     @IBOutlet weak var analyzeAudioButton: UIButton!
     @IBOutlet weak var plotView: UIView!
+    var plot: NodeOutputPlot!
 
-    var audioEngine = AVAudioEngine()
-    var player: AKPlayer!
+    var audioEngine = AudioEngine()
+    var player = AudioPlayer()
     var audioFileAnalyzer: SNAudioFileAnalyzer!
     var model: MLModel!
     var soundFiles: [URL]!
@@ -33,7 +33,29 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        setupAudioPlayer()
         loadAudioFiles()
+
+    }
+    
+    func setupAudioPlayer(){
+        audioEngine.output = player
+        do {
+            try audioEngine.start()
+            setupOutputPlot()
+        } catch  {
+            print(error)
+        }
+    }
+    
+    func setupOutputPlot(){
+        plot = NodeOutputPlot(player)
+        plot.plotType = .rolling
+        plot.shouldFill = true
+        plot.shouldMirror = true
+        plot.color = .red
+        plotView.addSubview(plot)
+        plot.start()
     }
     
     func loadAudioFiles(){
@@ -90,7 +112,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        stopAudioEngine()
+        audioEngine.stop()
     }
     
     @IBAction func analyizeRandomAudioClip(_ sender: Any) {
@@ -98,45 +120,28 @@ class ViewController: UIViewController {
         analyzeAudioButton.isEnabled = false
         
         //Randomly select the audio clip to analyizes
-        let selectedAudioClip: URL = soundFiles.randomElement()!
-        selectedClip.text = "Selected Clip: " + selectedAudioClip.lastPathComponent
+        let selectedAudioClipURL: URL = soundFiles.randomElement()!
+        selectedClip.text = "Selected Clip: " + selectedAudioClipURL.lastPathComponent
         prediction.text = "Prediction: "
         
         //Start analysis on the audio file on the background thread
         DispatchQueue.global(qos: .background).async {
-            self.startAudioEngine(audioFileURL: selectedAudioClip)
+            self.startAudioAnalysis(audioFileURL: selectedAudioClipURL)
         }
 
         //Create a player so we can hear the audio file being analyized
-        if let audioFile = try? AKAudioFile(readFileName: selectedAudioClip.lastPathComponent) {
-            player = AKPlayer(audioFile: audioFile)
-            player.completionHandler = {
+        player.scheduleFile(selectedAudioClipURL, at: .now()) {
+            DispatchQueue.main.async {
                 self.analyzeAudioButton.isEnabled = true
-                self.stopAudioEngine()
-            }
-            player.isLooping = false
-            player.buffering = .always
-            AudioKit.output = player
-            do {
-                try AudioKit.start()
-            } catch {
-                print(error.localizedDescription)
             }
         }
         
         player.play()
-        self.setupAudioPlot(player: player)
+
     }
     
-    func stopAudioEngine(){
-        do {
-            try AudioKit.stop()
-        } catch {
-            print(error.localizedDescription)
-        }
-    }
     
-    func startAudioEngine(audioFileURL: URL) {
+    func startAudioAnalysis(audioFileURL: URL) {
             
         // Create a new audio file analyzer.
         do {
@@ -168,13 +173,7 @@ class ViewController: UIViewController {
     }
     
     //Create a waveform plot
-    func setupAudioPlot(player: AKPlayer){
-        let plot = AKNodeOutputPlot(player, frame: CGRect(x: 0, y: 0, width: plotView.frame.width, height: plotView.frame.height))
-        plot.plotType = .rolling
-        plot.shouldFill = true
-        plot.shouldMirror = true
-        plot.color = AKColor.blue
-        plotView.addSubview(plot)
+    func setupAudioPlot(player: AudioPlayer){
     }
    
 
