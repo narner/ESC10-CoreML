@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		51A236242367EE9000D2506A /* waves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236232367EE9000D2506A /* waves.wav */; };
 		51A236282367FA4A00D2506A /* crackling-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236272367FA4A00D2506A /* crackling-fire.wav */; };
 		51A2362A2367FA5E00D2506A /* dogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51A236292367FA5E00D2506A /* dogs.wav */; };
+		51C822EE2555B4DA0049CDE0 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 51C822ED2555B4DA0049CDE0 /* AudioKit */; };
 		51E48472235D499A00FD833A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48471235D499A00FD833A /* AppDelegate.swift */; };
 		51E48474235D499A00FD833A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48473235D499A00FD833A /* SceneDelegate.swift */; };
 		51E48476235D499A00FD833A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E48475235D499A00FD833A /* ViewController.swift */; };
@@ -30,20 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		517C4BE823689EFF00FF6419 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C42F35001C057E03000E937C;
-			remoteInfo = AudioKit;
-		};
-		517C4BEA23689EFF00FF6419 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA7D07011F4E63C200707706;
-			remoteInfo = AudioKitUI;
-		};
 		51E48485235D499C00FD833A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51E48466235D499A00FD833A /* Project object */;
@@ -61,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "AudioKit/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
 		517C4BEC2368A01E00FF6419 /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ESC-10 Sound Classifier.mlmodel"; path = "../../ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
 		51A236232367EE9000D2506A /* waves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = waves.wav; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/waves.wav"; sourceTree = "<group>"; };
 		51A236272367FA4A00D2506A /* crackling-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crackling-fire.wav"; path = "../../../CreateML Project And Dataset/CreateML Project Test Audio Files/crackling-fire.wav"; sourceTree = "<group>"; };
@@ -96,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C822EE2555B4DA0049CDE0 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,15 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		517C4BE423689EFF00FF6419 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				517C4BE923689EFF00FF6419 /* AudioKit.framework */,
-				517C4BEB23689EFF00FF6419 /* AudioKitUI.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		51A295DE236641BD007FA3D4 /* AudioFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +124,6 @@
 		51E48465235D499A00FD833A = {
 			isa = PBXGroup;
 			children = (
-				517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */,
 				51E48470235D499A00FD833A /* ECS10-CoreML-Demo */,
 				51E48487235D499C00FD833A /* ECS10-CoreML-DemoTests */,
 				51E48492235D499C00FD833A /* ECS10-CoreML-DemoUITests */,
@@ -223,6 +200,9 @@
 			dependencies = (
 			);
 			name = "ESC10-CoreML-Demo";
+			packageProductDependencies = (
+				51C822ED2555B4DA0049CDE0 /* AudioKit */,
+			);
 			productName = "ECS10-CoreML-Demo";
 			productReference = 51E4846E235D499A00FD833A /* ESC10-CoreML-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -295,14 +275,11 @@
 				Base,
 			);
 			mainGroup = 51E48465235D499A00FD833A;
+			packageReferences = (
+				51C822EC2555B4DA0049CDE0 /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = 51E4846F235D499A00FD833A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 517C4BE423689EFF00FF6419 /* Products */;
-					ProjectRef = 517C4BE323689EFF00FF6419 /* AudioKit For iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				51E4846D235D499A00FD833A /* ESC10-CoreML-Demo */,
@@ -311,23 +288,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		517C4BE923689EFF00FF6419 /* AudioKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AudioKit.framework;
-			remoteRef = 517C4BE823689EFF00FF6419 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		517C4BEB23689EFF00FF6419 /* AudioKitUI.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AudioKitUI.framework;
-			remoteRef = 517C4BEA23689EFF00FF6419 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		51E4846C235D499A00FD833A /* Resources */ = {
@@ -720,6 +680,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51C822EC2555B4DA0049CDE0 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				branch = "v5-main";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51C822ED2555B4DA0049CDE0 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51C822EC2555B4DA0049CDE0 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 51E48466235D499A00FD833A /* Project object */;
 }

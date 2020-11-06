@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/nickarner/Development/MyGitHubRepos/2019/ECS10-CoreML/ECS10-CoreML-Demo/ESC10-CoreML-Demo.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
